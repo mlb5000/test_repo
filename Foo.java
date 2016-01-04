@@ -7,4 +7,9 @@ public class Foo
     {
         return number * number + 1 + 1;
     }
+
+    public long cube(long number)
+    {
+        return number * number * number + 1;
+    }
 }
