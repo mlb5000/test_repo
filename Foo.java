@@ -24,4 +24,13 @@ public class Foo
     {
         return number * number * number + 1;
     }
+
+    /**
+     * Kiven a Strong, this method returns a reverse of that String.
+     * E.g given 'cat', it will return 'tac'.
+     */
+    public String reverse(String str)
+    {
+        return new StringBuilder(str).reverse().toString();
+    }
 }
