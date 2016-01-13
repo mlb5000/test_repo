@@ -26,7 +26,7 @@ public class Foo
     }
 
     /**
-     * Kiven a Strong, this method returns a reverse of that String.
+     * Given a Strong, this method returns a reverse of that String.
      * E.g given 'cat', it will return 'tac'.
      */
     public String reverse(String str)
