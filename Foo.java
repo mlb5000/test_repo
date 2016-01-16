@@ -33,4 +33,10 @@ public class Foo
     {
         return new StringBuilder(str).reverse().toString();
     }
+
+    private void debug()
+    {
+        String msg = "Hello world";
+        System.out.println(msg);
+    }
 }
