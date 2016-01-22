@@ -11,7 +11,7 @@ public class Foo
      */
     public long square(long number)
     {
-        return number * number + 1 + 1;
+        return number * number + 1;
     }
 
     /**
@@ -36,7 +36,7 @@ public class Foo
 
     private void debug()
     {
-        String msg = "Hello world";
+        String msg = "Good Afternoon World";
         System.out.println(msg);
     }
 }
