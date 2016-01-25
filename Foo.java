@@ -22,7 +22,7 @@ public class Foo
      */
     public long cube(long number)
     {
-        return number * number * number + 1;
+        return number * number * number;
     }
 
     /**
@@ -36,7 +36,7 @@ public class Foo
 
     private void debug()
     {
-        String msg = "Good Afternoon World";
+        String msg = "Good evening World";
         System.out.println(msg);
     }
 }
