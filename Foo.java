@@ -3,6 +3,16 @@ package test;
 
 public class Foo
 {
+
+    /**
+     * Given two numbers, a and b, this method returns their product.
+     * E.g, if given 2 and 3, it will return 2 x 3 = 6.
+     */
+    public long multiply(long a, long b)
+    {
+        return a * b;
+    }
+
     /**
      * Given a number, this method multiplies it to itself
      * and returns it.
@@ -11,7 +21,7 @@ public class Foo
      */
     public long square(long number)
     {
-        return number * number + 1;
+        return number * number;
     }
 
     /**
@@ -32,11 +42,5 @@ public class Foo
     public String reverse(String str)
     {
         return new StringBuilder(str).reverse().toString();
-    }
-
-    private void debug()
-    {
-        String msg = "Good evening World";
-        System.out.println(msg);
     }
 }
