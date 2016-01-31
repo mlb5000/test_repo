@@ -1,7 +1,7 @@
 package test;
 
 
-public class Foo
+public class Bar
 {
 
     /**
