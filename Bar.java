@@ -2,8 +2,32 @@ package test;
 
 public class Bar
 {
-    public void orderDrink(String type, double amount, int howDrunk)
+    private int width;
+    private int height;
+
+    public Bar(int width, int height)
     {
-        throw new UnsupportedOperationException();
+        this.width = width;
+        this.height = height;
+    }
+
+    public int getWidth()
+    {
+        return width;
+    }
+
+    public void setWidth(int width)
+    {
+        this.width = width;
+    }
+
+    public int getHeight()
+    {
+        return height;
+    }
+
+    public void setHeight(int height)
+    {
+        this.height = height;
     }
 }
